@@ -19,6 +19,9 @@
 #include "gic.h"		/* interrupt controller interface */
 #include "xgpio.h"		/* axi gpio interface */
 
+#define INPUT 0x1							/* setting GPIO direction to output */
+#define CHANNEL1 1							/* channel 1 of the GPIO port */
+
 /* hidden private state */
 static XGpio btnport;	       /* btn GPIO port instance */
 static int pushes=0;	       /* variable used to count interrupts */
@@ -36,17 +39,29 @@ void btn_handler(void *devicep) {
 	printf(".");
 	fflush(stdout);
 
+	return;
 }
 
 
 int main() {
-  init_platform();				
+  init_platform();
 
   /* initialize the gic (c.f. gic.h) */
+  gic_init();
+
   /* initialize btnport (c.f. module 1) and immediately dissable interrupts */
+  XGpio_Initialize(&btnport, XPAR_AXI_GPIO_1_DEVICE_ID);
+  XGpio_SetDataDirection(&btnport, CHANNEL1, INPUT);
+  XGpio_InterruptDisable(&btnport, XGPIO_IR_CH1_MASK);
+
   /* connect handler to the gic (c.f. gic.h) */
+  gic_connect(XPAR_FABRIC_GPIO_1_VEC_ID, btn_handler, &btnport);
+
   /* enable interrupts on channel (c.f. table 2.1) */
+  XGpio_InterruptEnable(&btnport, XGPIO_IR_CH1_MASK);
+
   /* enable interrupt to processor (c.f. table 2.1) */
+  XGpio_InterruptGlobalEnable(&btnport);
 
   printf("[hello]\n"); /* so we are know its alive */
   pushes=0;
@@ -56,7 +71,11 @@ int main() {
   printf("\n[done]\n");
 
   /* disconnect the interrupts (c.f. gic.h) */
-  /* close the gic (c.f. gic.h)
+  gic_disconnect(XPAR_FABRIC_GPIO_1_VEC_ID);
+
+  /* close the gic (c.f. gic.h) */
+  gic_close();
+
   cleanup_platform();					/* cleanup the hardware platform */
   return 0;
 }
