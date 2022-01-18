@@ -5194,3 +5194,3580 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-49: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:49:09.195
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-49: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:20.628
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-55: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:20.643
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-55: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:20.648
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-55: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:20.654
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-55: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-18 15:57:20.660
+!MESSAGE Generating MD5 hash for file: /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:20.671
+!MESSAGE XSCT Command: [::hsi::utils::closesw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-55: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:20.678
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-55: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-01-18 15:57:22.010
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:25.817
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-53: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:25.826
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-53: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:25.832
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-53: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:25.847
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-53: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-18 15:57:25.859
+!MESSAGE Generating MD5 hash for file: /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:25.867
+!MESSAGE XSCT Command: [::hsi::utils::closesw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-53: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 15:57:25.874
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-53: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:32.619
+!MESSAGE XSCT Command: [platform read {/thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/platform.spr}], Thread: Worker-60: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:33.692
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.122
+!MESSAGE XSCT command with result: [platform read {/thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-60: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.126
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa]. Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.133
+!MESSAGE XSCT Command: [::scw::regenerate_psinit /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.139
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, ]. Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.144
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.217
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss]. Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.222
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss ], Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.227
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss ], Result: [null, ]. Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.233
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.239
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-63: Initializing 'standalone_ps7_cortexa9_0' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.250
+!MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.255
+!MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.259
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.264
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa]. Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.269
+!MESSAGE XSCT Command: [::scw::regenerate_psinit /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.274
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, ]. Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.281
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.285
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.290
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.8",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.8",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.8",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.8",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.2",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.7",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.15",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.9",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.9",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.6",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.3",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.4",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.13",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.11",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.7",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.6",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.11",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.296
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.371
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss]. Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.376
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss ], Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.382
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.387
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.392
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss ], Result: [null, ]. Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.397
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.403
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.409
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-63: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.414
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.424
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.430
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.443
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.448
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.457
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.463
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.473
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.479
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.491
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.497
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.510
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.517
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.528
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.534
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.554
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.565
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.577
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.583
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.596
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.602
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.610
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.616
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.627
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.636
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.645
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.651
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.659
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.664
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.673
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.683
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.696
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.773
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.787
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.793
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.806
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.812
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.824
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.831
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.840
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.848
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.859
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.864
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.876
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.882
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.891
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.897
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.908
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.914
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.924
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.930
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.941
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.946
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.956
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.961
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.971
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.977
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.986
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:36.992
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.002
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.007
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.016
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.022
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.033
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.039
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.050
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.055
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.065
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.242
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.248
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.255
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.261
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.301
+!MESSAGE XSCT Command: [bsp reload], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.711
+!MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.819
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.835
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.8",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.8",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.8",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.8",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.2",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.7",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.15",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.9",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.9",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.6",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.3",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.4",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.13",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.11",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.7",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.6",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.11",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.845
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.855
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.861
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.872
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.878
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.888
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.896
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.909
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.914
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.924
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.930
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.944
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.950
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.960
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.966
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.981
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.987
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:37.996
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.002
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.013
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.018
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.030
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.038
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.048
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.059
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.072
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.078
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.088
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.093
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.105
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.110
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.121
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.126
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.139
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.144
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.155
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.162
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.178
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.186
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.195
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.200
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.218
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.224
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.235
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.241
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.256
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.262
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.279
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.286
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.297
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.303
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.313
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.319
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.332
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.337
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.349
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.355
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.367
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.373
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.382
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.387
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.398
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.408
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.420
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.430
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.443
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.448
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.456
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.469
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.483
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.491
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.503
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.533
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.538
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, xilffs xilrsa]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.543
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.550
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"xilffs": "4.6",
+"xilrsa": "1.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.556
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.6"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.566
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.6"  && TYPE == "LIBRARY"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/lib/sw_services/xilffs_v4_6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.577
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.6"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.585
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.6"  && TYPE == "LIBRARY"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/lib/sw_services/xilffs_v4_6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.591
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.605
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/lib/sw_services/xilrsa_v1_6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.614
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.631
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Result: [null, /thayerfs/apps/xilinx/Vitis/current/data/embeddedsw/lib/sw_services/xilrsa_v1_6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:38.665
+!MESSAGE XSCT Command: [bsp reload], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:12:39.084
+!MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:24.419
+!MESSAGE XSCT Command: [::hsi::utils::closehw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:24.462
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, ]. Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:24.467
+!MESSAGE XSCT Command: [::hsi::utils::openhw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.337
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, ]. Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.342
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.354
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.359
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.367
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-18 16:31:27.373
+!MESSAGE Generating MD5 hash for file: /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.382
+!MESSAGE XSCT Command: [::hsi::utils::closesw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:27.388
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:31.876
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:31:31.897
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-66: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:29.196
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:29.203
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, {"device": "7z010",
+"family": "zynq",
+"timestamp": "Mon Jan 17 14:29:52 2022",
+"vivado_version": "2021.2",
+"part": "xc7z010clg400-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:29.209
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:29.216
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:30.044
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:30.052
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:30.056
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:30.062
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#52]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:30.067
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:33.077
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:36.083
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:39.097
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:39.102
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:41.428
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:41.433
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:41.452
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:41.475
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A6B169A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:41.516
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A6B169A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:41.525
+!MESSAGE XSCT Command: [fpga -file /thayerfs/home/f0062gt/workspace/module2/module2/_ide/bitstream/module2_hw_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:42.741
+!MESSAGE XSCT command with result: [fpga -file /thayerfs/home/f0062gt/workspace/module2/module2/_ide/bitstream/module2_hw_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:43.551
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:43.557
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.423
+!MESSAGE XSCT Command: [disconnect tcfchan#52], Thread: Thread-2644
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.449
+!MESSAGE XSCT command with result: [disconnect tcfchan#52], Result: [null, ]. Thread: Thread-2644
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.470
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.481
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "667",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.485
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.515
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681728,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681732,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681736,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681740,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682012,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682024,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682016,
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747264,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747268,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747272,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747276,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747548,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747560,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747552,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.521
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.541
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x41220000",
+"high": "0x4122FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.547
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.553
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.557
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.564
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.569
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.574
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.579
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.585
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.598
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.605
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.610
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.622
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.627
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.637
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.643
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.676
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681728,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681732,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681736,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681740,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682012,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682024,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682016,
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747264,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747268,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747272,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747276,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747548,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747560,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092747552,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.683
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.704
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x41220000",
+"high": "0x4122FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.710
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.716
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.722
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.730
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.736
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.742
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.747
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.758
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.766
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.778
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.784
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.790
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.795
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.802
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa ps7_cortexa9_0], Result: [null, axi_gpio_0 axi_gpio_1 axi_gpio_2 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.808
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa bit], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.815
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa bit], Result: [null, module2_hw_wrapper.bit]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.820
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.830
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#56]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.835
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.871
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.877
+!MESSAGE XSCT Command: [version -server], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.896
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2.0]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.903
+!MESSAGE XSCT Command: [version], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.912
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 3363252 on 2021-10-14-04:41:01
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.919
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.938
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.943
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.966
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.971
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.982
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:46.987
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.012
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.018
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.028
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.034
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.057
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.064
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.075
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.080
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.101
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.106
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.116
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.121
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.144
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.148
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.158
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.163
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.191
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.196
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6B169A" && level == 0}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.216
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6B169A" && level == 0}], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.221
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.227
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.231
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.280
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.285
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.346
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:47.352
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.364
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.381
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   4* Digilent Zybo Z7 210351A6B169A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.397
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.417
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.422
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A6B169A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.474
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6B169A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A6B169A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:50.487
+!MESSAGE XSCT Command: [fpga -file /thayerfs/home/f0062gt/workspace/module2/module2/_ide/bitstream/module2_hw_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.728
+!MESSAGE XSCT command with result: [fpga -file /thayerfs/home/f0062gt/workspace/module2/module2/_ide/bitstream/module2_hw_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.751
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.765
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.772
+!MESSAGE XSCT Command: [loadhw -hw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.848
+!MESSAGE XSCT command with result: [loadhw -hw /thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/hw/module2_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, module2_hw_wrapper_2]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.854
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.860
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.866
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.883
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.889
+!MESSAGE XSCT Command: [source /thayerfs/home/f0062gt/workspace/module2/module2/_ide/psinit/ps7_init.tcl], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.899
+!MESSAGE XSCT command with result: [source /thayerfs/home/f0062gt/workspace/module2/module2/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:51.904
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.187
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.192
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.205
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.210
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.223
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.227
+!MESSAGE XSCT Command: [dow /thayerfs/home/f0062gt/workspace/module2/module2/Debug/module2.elf], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.393
+!MESSAGE XSCT command with result: [dow /thayerfs/home/f0062gt/workspace/module2/module2/Debug/module2.elf], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.398
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.422
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.437
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.452
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.457
+!MESSAGE XSCT Command: [con], Thread: Worker-72: Launching SystemDebugger_module2_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-18 16:32:52.485
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-72: Launching SystemDebugger_module2_system
