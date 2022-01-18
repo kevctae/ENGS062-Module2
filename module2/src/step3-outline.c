@@ -25,6 +25,7 @@
 /* hidden private state */
 static XGpio btnport;	       /* btn GPIO port instance */
 static int pushes=0;	       /* variable used to count interrupts */
+//static bool btn_down = false;
 
 /*
  * controll is passed to this function when a button is pushed
@@ -35,11 +36,28 @@ void btn_handler(void *devicep) {
 	/* coerce the generic pointer into a gpio */
 	XGpio *dev = (XGpio*)devicep;
 
-	pushes++;
-	printf(".");
-	fflush(stdout);
+	u32 btnId = XGpio_DiscreteRead(dev, CHANNEL1);
 
-	return;
+//	printf("[STATUS %ld]", btnId);
+
+//	if (!btn_down && btnId == 1) {
+//		pushes++;
+//		printf(".");
+//		fflush(stdout);
+//		btn_down = true;
+//	} else if (btnId == 0) {
+//		btn_down = false;
+//	}
+
+	if (btnId == 0x1) {
+		pushes++;
+		printf(".");
+		fflush(stdout);
+	}
+
+
+
+	XGpio_InterruptClear(dev, XGPIO_IR_CH1_MASK);
 }
 
 
@@ -65,7 +83,7 @@ int main() {
 
   printf("[hello]\n"); /* so we are know its alive */
   pushes=0;
-  while(pushes<5) /* do nothing and handle interrups */
+  while(pushes<10) /* do nothing and handle interrups */
 	  ;
 
   printf("\n[done]\n");
