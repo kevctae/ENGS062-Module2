@@ -22,6 +22,7 @@
 
 static XGpio port;									/* GPIO port connected to the leds */
 static XGpio port1;
+static XGpioPs port3;
 
 /*
  * Initialize the led module
@@ -30,6 +31,11 @@ void led_init(void) {
 	XGpio_Initialize(&port, XPAR_AXI_GPIO_0_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
 	XGpio_SetDataDirection(&port, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
 	XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);
+
+	XGpioPs_Config *config = XGpioPs_LookupConfig(XPAR_XGPIOPS_0_DEVICE_ID);
+	XGpioPs_CfgInitialize(&port3, config, config->BaseAddr);
+	XGpioPs_SetDirectionPin(&port3, 7, 1);
+	XGpioPs_SetOutputEnablePin(&port3, 7, 1);
 }
 
 /*
@@ -44,8 +50,10 @@ void led_set(u32 led, bool tostate) {
 	if (led == ALL) {
 		if (tostate) {
 			XGpio_DiscreteWrite(&port, CHANNEL1, 0xF);
+			XGpioPs_WritePin(&port3, 7, 1);
 		} else {
 			XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);
+			XGpioPs_WritePin(&port3, 7, 0);
 		}
 	} else if (led == 0) {
 		if (tostate) {
@@ -78,6 +86,12 @@ void led_set(u32 led, bool tostate) {
 		} else {
 			u32 value = 0x7 & led_state;
 			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		}
+	} else if (led == 4){
+		if(tostate){
+			XGpioPs_WritePin(&port3, 7, 1);
+		}else{
+			XGpioPs_WritePin(&port3, 7, 0);
 		}
 	}
 }
@@ -122,6 +136,13 @@ bool led_get(u32 led) {
 			return LED_ON;
 		} else {
 			return LED_OFF;
+		}
+	} else if (led == 4){
+		u32 value = XGpioPs_ReadPin(&port3, 7);
+		if(value == 0){
+			return LED_OFF;
+		} else{
+			return LED_ON;
 		}
 	}
 	return LED_OFF;

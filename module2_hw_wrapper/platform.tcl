@@ -29,3 +29,7 @@ domain active {standalone_ps7_cortexa9_0}
 bsp reload
 bsp reload
 platform generate
+domain active {zynq_fsbl}
+bsp reload
+bsp reload
+platform generate -domains 
