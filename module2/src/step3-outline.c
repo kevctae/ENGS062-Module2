@@ -21,10 +21,7 @@
 #include "io.h"
 
 #define CHANNEL1 1							/* channel 1 of the GPIO port */
-
-/* hidden private state */
-static int pushes=0;	       /* variable used to count interrupts */
-static u32 sw_last = 0x0;
+u32 sw_last = 0x0;
 
 /*
  * controll is passed to this function when a button is pushed
@@ -32,11 +29,6 @@ static u32 sw_last = 0x0;
  * devicep -- ptr to the device that caused the interrupt
  */
 void btn_handler(u32 btn) {
-	if(btn != 0x0){
-		pushes++;
-		printf(".");
-		fflush(stdout);
-	}
 	if(btn == 0x1){
 		led_toggle(0x0);
 	}else if(btn == 0x2){
@@ -63,9 +55,14 @@ void sw_handler(u32 sw) {
 	}
 }
 
-
 int main() {
-  init_platform();				
+  init_platform();
+
+  /*
+   * set stdin unbuffered, forcing getchar to return immediately when
+   * a character is typed.
+   */
+  setvbuf(stdin,NULL,_IONBF,0);
 
   //initiate LEDs
   led_init();
@@ -77,11 +74,46 @@ int main() {
   //initiate switches interface
   io_sw_init(sw_handler);
 
-  printf("[hello]\n"); /* so we are know its alive */
-  pushes=0;
 
-  while(pushes<20) /* do nothing and handle interrups */
-	  ;
+  printf("[hello]\n"); /* so we are know its alive */
+
+  while (1) {
+  	printf(">");
+  	char c, str[64] = "";
+  	int i = 0;
+
+  	// get characters one by one into str
+  	while ((c = getchar()) != '\r') {
+  		str[i++] = c;
+  		printf("%c", c);
+  	}
+
+ 	char *ptr;
+
+  	// print "[#]" if is number 0 to 3
+  	if (strcmp(str, "0") == 0 || strcmp(str, "1") == 0 || strcmp(str, "2") == 0 || strcmp(str, "3") == 0) {
+  		int num = strtol(str, &ptr, 10);
+
+  		led_toggle(num);
+  		bool led_state = led_get(num);
+
+  		printf("\n[%d ", num);
+  		if (led_state) {
+  			printf("on");
+  		} else {
+  			printf("off");
+  		}
+  		printf("]");
+
+  	// exit if is 'q' character
+  	} else if (strcmp(str, "q") == 0) {
+  		printf("\n");
+
+  		break;
+  	}
+
+  	printf("\n");
+  }
 
   printf("\n[done]\n");
 
