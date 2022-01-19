@@ -1,4 +1,4 @@
-11:46:53 **** Incremental Build of configuration Debug for project module2 ****
+12:19:22 **** Incremental Build of configuration Debug for project module2 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -17,9 +17,9 @@ Finished building target: module2.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size module2.elf  |tee "module2.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  63099	   3380	  22784	  89263	  15caf	module2.elf
+  64887	   3380	  22784	  91051	  163ab	module2.elf
 Finished building: module2.elf.size
  
 
-11:46:54 Build Finished (took 1s.680ms)
+12:19:24 Build Finished (took 1s.680ms)
 
