@@ -1,13 +1,13 @@
-12:19:22 **** Incremental Build of configuration Debug for project module2 ****
+12:29:19 **** Incremental Build of configuration Debug for project module2 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-Building file: ../src/step3-outline.c
+Building file: ../src/io.c
 Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/step3-outline.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/step3-outline.d" -MT"src/step3-outline.o" -o "src/step3-outline.o" "../src/step3-outline.c"
-Finished building: ../src/step3-outline.c
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/io.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/thayerfs/home/f0062gt/workspace/module2/module2_hw_wrapper/export/module2_hw_wrapper/sw/module2_hw_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/io.d" -MT"src/io.o" -o "src/io.o" "../src/io.c"
+Finished building: ../src/io.c
  
 Building target: module2.elf
 Invoking: ARM v7 gcc linker
@@ -17,9 +17,9 @@ Finished building target: module2.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size module2.elf  |tee "module2.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  64887	   3380	  22784	  91051	  163ab	module2.elf
+  64951	   3380	  22784	  91115	  163eb	module2.elf
 Finished building: module2.elf.size
  
 
-12:19:24 Build Finished (took 1s.680ms)
+12:29:21 Build Finished (took 1s.638ms)
 
