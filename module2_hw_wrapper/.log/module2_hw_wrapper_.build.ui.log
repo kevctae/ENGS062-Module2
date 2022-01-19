@@ -1,6 +1,2 @@
-2022-01-18T16:31:03.40757500255-16:31:03 **** Incremental Build of project module2_hw_wrapper ****
-000-buildplatform.sh 34695 module2_hw_wrapper no_domain_build 
-000-XSDB Server Channel: tcfchan#54
-00255-
-16:31:24 Build Finished (took 20s.571ms)
+2022-01-19T11:46:52.851181000-Nothing to build in platform 'module2_hw_wrapper'
 

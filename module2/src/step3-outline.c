@@ -16,83 +16,66 @@
 #include "xil_types.h"		/* u32, s32 etc */
 #include "xparameters.h"	/* constants used by hardware */
 
-#include "gic.h"		/* interrupt controller interface */
 #include "xgpio.h"		/* axi gpio interface */
-
 #include "led.h"
+#include "io.h"
 
-#define OUTPUT 0x0							/* setting GPIO direction to output */
-#define INPUT 0x1
 #define CHANNEL1 1							/* channel 1 of the GPIO port */
 
 /* hidden private state */
-static XGpio btnport;	       /* btn GPIO port instance */
 static int pushes=0;	       /* variable used to count interrupts */
-
-//debounce the buttons
-//static bool btn0_down = false;
-//static bool btn1_down = false;
-//static bool btn2_down = false;
-//static bool btn3_down = false;
+static u32 sw_last = 0x0;
 
 /*
  * controll is passed to this function when a button is pushed
  *
  * devicep -- ptr to the device that caused the interrupt
  */
-void btn_handler(void *devicep) {
-	/* coerce the generic pointer into a gpio */
-	XGpio *dev = (XGpio*)devicep;
-
-	u32 btnId = XGpio_DiscreteRead(dev, CHANNEL1);
-	//printf("%lu", btnId);
-
-
-	if(btnId != 0x0){
+void btn_handler(u32 btn) {
+	if(btn != 0x0){
 		pushes++;
 		printf(".");
 		fflush(stdout);
 	}
-	if(btnId == 0x1){
+	if(btn == 0x1){
 		led_toggle(0x0);
-	}else if(btnId == 0x2){
+	}else if(btn == 0x2){
 		led_toggle(0x1);
-	}else if(btnId == 0x4){
+	}else if(btn == 0x4){
 		led_toggle(0x2);
-	}else if(btnId == 0x8){
+	}else if(btn == 0x8){
 		led_toggle(0x3);
 	}
+}
 
-	//clear it
-	XGpio_InterruptClear(&btnport, XGPIO_IR_CH1_MASK);
+void sw_handler(u32 sw) {
+	u32 comp = sw ^ sw_last;
+	sw_last = sw;
 
+	if(comp == 0x1){
+		led_toggle(0x0);
+	}else if(comp == 0x2){
+		led_toggle(0x1);
+	}else if(comp == 0x4){
+		led_toggle(0x2);
+	}else if(comp == 0x8){
+		led_toggle(0x3);
+	}
 }
 
 
 int main() {
   init_platform();				
 
-  /* initialize the gic (c.f. gic.h) */
-  gic_init();
-
   //initiate LEDs
   led_init();
-
   led_set(0x4, true);
 
-  /* initialize btnport (c.f. module 1) and immediately dissable interrupts */
-  XGpio_Initialize(&btnport, XPAR_AXI_GPIO_1_DEVICE_ID);
-  XGpio_SetDataDirection(&btnport, CHANNEL1, INPUT);	    /* set tristate buffer to output */
-  XGpio_InterruptDisable(&btnport, XGPIO_IR_CH1_MASK);
+  //initiate buttons interface
+  io_btn_init(btn_handler);
 
-  /* connect handler to the gic (c.f. gic.h) */
-  gic_connect(XPAR_FABRIC_GPIO_1_VEC_ID, btn_handler, &btnport);
-
-  /* enable interrupts on channel (c.f. table 2.1) */
-  XGpio_InterruptEnable(&btnport, XGPIO_IR_CH1_MASK);
-
-  /* enable interrupt to processor (c.f. table 2.1) */
-  XGpio_InterruptGlobalEnable(&btnport);
+  //initiate switches interface
+  io_sw_init(sw_handler);
 
   printf("[hello]\n"); /* so we are know its alive */
   pushes=0;
@@ -105,11 +88,11 @@ int main() {
   //turn off all leds
   led_set(ALL, false);
 
-  /* disconnect the interrupts (c.f. gic.h) */
-  gic_disconnect(XPAR_FABRIC_GPIO_1_VEC_ID);
+  //close buttons interface
+  io_btn_close();
 
-  /* close the gic (c.f. gic.h)   */
-  gic_close();
+  //close switches interface
+  io_sw_close();
 
   cleanup_platform();					/* cleanup the hardware platform */
   return 0;

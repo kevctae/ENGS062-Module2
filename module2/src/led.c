@@ -2,14 +2,8 @@
  * led.c -- led module
  *
  */
-#pragma once
 
-#include <stdio.h>
-#include <stdbool.h>
-#include <xgpio.h>		  	/* axi gpio */
-#include <xgpiops.h>		/* processor gpio */
-#include "xparameters.h"  	/* constants used by the hardware */
-#include "xil_types.h"		/* types used by xilinx */
+#include "led.h"
 
 /* led states */
 #define LED_ON true
