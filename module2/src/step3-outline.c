@@ -21,7 +21,6 @@
 #include "io.h"
 
 #define CHANNEL1 1							/* channel 1 of the GPIO port */
-u32 sw_last = 0x0;
 
 /*
  * controll is passed to this function when a button is pushed
@@ -41,16 +40,13 @@ void btn_handler(u32 btn) {
 }
 
 void sw_handler(u32 sw) {
-	u32 comp = sw ^ sw_last;
-	sw_last = sw;
-
-	if(comp == 0x1){
+	if(sw == 0x1){
 		led_toggle(0x0);
-	}else if(comp == 0x2){
+	}else if(sw == 0x2){
 		led_toggle(0x1);
-	}else if(comp == 0x4){
+	}else if(sw == 0x4){
 		led_toggle(0x2);
-	}else if(comp == 0x8){
+	}else if(sw == 0x8){
 		led_toggle(0x3);
 	}
 }

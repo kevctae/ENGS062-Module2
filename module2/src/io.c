@@ -11,6 +11,7 @@
 
 static XGpio btnport;	       /* btn GPIO port instance */
 static XGpio swport;	       /* sw GPIO port instance */
+static u32 sw_last;
 
 static void (*btn_saved_callback)(u32 v);
 
@@ -32,7 +33,9 @@ static void get_swId(void *devicep) {
 	XGpio *dev = (XGpio*)devicep;
 
 	u32 sw = XGpio_DiscreteRead(dev, CHANNEL1);
-	sw_saved_callback(sw);
+	u32 comp = sw ^ sw_last;
+	sw_last = sw;
+	sw_saved_callback(comp);
 
 	//clear it
 	XGpio_InterruptClear(dev, XGPIO_IR_CH1_MASK);
@@ -98,6 +101,8 @@ void io_sw_init(void (*sw_callback)(u32 sw)) {
 
 	/* enable interrupt to processor (c.f. table 2.1) */
 	XGpio_InterruptGlobalEnable(&swport);
+
+	sw_last = XGpio_DiscreteRead(&swport, CHANNEL1);
 }
 
 /*
