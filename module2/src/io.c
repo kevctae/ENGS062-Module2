@@ -3,26 +3,52 @@
  *
  */
 
+
+/*includes*/
+/***************************************************************************************/
 #include "io.h"
 #include "gic.h"		/* interrupt controller interface */
+/***************************************************************************************/
 
+
+
+/*defines*/
+/***************************************************************************************/
 #define INPUT 0x1
 #define CHANNEL1 1							/* channel 1 of the GPIO port */
+/***************************************************************************************/
 
+
+
+/*globals*/
+/***************************************************************************************/
 static XGpio btnport;	       /* btn GPIO port instance */
 static XGpio swport;	       /* sw GPIO port instance */
 static u32 sw_last;
+/***************************************************************************************/
 
+
+
+/*headers*/
+/***************************************************************************************/
 static void (*btn_saved_callback)(u32 v);
-
 static void (*sw_saved_callback)(u32 v);
+static u32 register_to_led(u32 reg);
+/***************************************************************************************/
 
+
+
+/*statics*/
+/***************************************************************************************/
 static void get_btnId(void *devicep) {
 	/* coerce the generic pointer into a gpio */
 	XGpio *dev = (XGpio*)devicep;
 
 	u32 btn = XGpio_DiscreteRead(dev, CHANNEL1);
-	btn_saved_callback(btn);
+	if(btn != 0x0){
+		u32 led = register_to_led(btn);
+		btn_saved_callback(led);
+	}
 
 	//clear it
 	XGpio_InterruptClear(dev, XGPIO_IR_CH1_MASK);
@@ -35,12 +61,30 @@ static void get_swId(void *devicep) {
 	u32 sw = XGpio_DiscreteRead(dev, CHANNEL1);
 	u32 comp = sw ^ sw_last;
 	sw_last = sw;
-	sw_saved_callback(comp);
+	u32 led = register_to_led(comp);
+	sw_saved_callback(led);
 
 	//clear it
 	XGpio_InterruptClear(dev, XGPIO_IR_CH1_MASK);
 }
 
+static u32 register_to_led(u32 reg){
+	if(reg == 0x1){
+		return(0x0);
+	}else if(reg == 0x2){
+		return(0x1);
+	}else if(reg == 0x4){
+		return(0x2);
+	}else if(reg == 0x8){
+		return(0x3);
+	}
+}
+/***************************************************************************************/
+
+
+
+/*functions*/
+/***************************************************************************************/
 /*
  * initialize the btns providing a callback
  */
@@ -115,4 +159,5 @@ void io_sw_close(void) {
 	/* close the gic (c.f. gic.h)   */
 	gic_close();
 }
+/***************************************************************************************/
 

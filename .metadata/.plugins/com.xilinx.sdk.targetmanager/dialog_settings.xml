@@ -7,5 +7,5 @@
 	<item key="module2_system-partial_bit" value="false"/>
 	<item key="module2_system-skip_rev_check" value="false"/>
 	<item key="programfpga.sdxproject" value="module2_system"/>
-	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Zybo Z7 210351A6B169A&quot;,&quot;indexContextMap&quot;:{&quot;5&quot;:&quot;jsn-Zybo Z7-210351A6B169A-4ba00477-0&quot;,&quot;6&quot;:&quot;jsn-Zybo Z7-210351A6B169A-13722093-0&quot;}}]}"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Zybo Z7 210351A6B169A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Zybo Z7-210351A6B169A-4ba00477-0&quot;,&quot;3&quot;:&quot;jsn-Zybo Z7-210351A6B169A-13722093-0&quot;}}]}"/>
 </section>

@@ -6,6 +6,11 @@
  *  -- XPAR_FABRIC_GPIO_1_VEC_ID -- xparameters.h
  *  -- XGPIO_IR_CH1_MASK         -- xgpio_l.h (included by xgpio.h)
  */
+
+
+
+/*includes*/
+/***************************************************************************************/
 #include <stdio.h>		/* getchar,printf */
 #include <stdlib.h>		/* strtod */
 #include <stdbool.h>		/* type bool */
@@ -19,38 +24,54 @@
 #include "xgpio.h"		/* axi gpio interface */
 #include "led.h"
 #include "io.h"
+/***************************************************************************************/
 
-#define CHANNEL1 1							/* channel 1 of the GPIO port */
+
+
+/*headers*/
+/***************************************************************************************/
+void get_input(char (*str)[64]);
+/***************************************************************************************/
+
+
 
 /*
  * controll is passed to this function when a button is pushed
  *
  * devicep -- ptr to the device that caused the interrupt
  */
-void btn_handler(u32 btn) {
-	if(btn == 0x1){
-		led_toggle(0x0);
-	}else if(btn == 0x2){
-		led_toggle(0x1);
-	}else if(btn == 0x4){
-		led_toggle(0x2);
-	}else if(btn == 0x8){
-		led_toggle(0x3);
+
+
+
+
+/*callbacks*/
+/***************************************************************************************/
+void callback(u32 led) {
+	led_toggle(led);
+}
+/***************************************************************************************/
+
+
+
+/*functions*/
+/***************************************************************************************/
+void get_input(char (*str)[64]) {
+	printf(">");
+	char c;
+	int i = 0;
+
+	// get characters one by one into str
+	while ((c = getchar()) != '\r') {
+		*str[i++] = c;
+	  	printf("%c", c);
 	}
 }
+/***************************************************************************************/
 
-void sw_handler(u32 sw) {
-	if(sw == 0x1){
-		led_toggle(0x0);
-	}else if(sw == 0x2){
-		led_toggle(0x1);
-	}else if(sw == 0x4){
-		led_toggle(0x2);
-	}else if(sw == 0x8){
-		led_toggle(0x3);
-	}
-}
 
+
+/*main*/
+/***************************************************************************************/
 int main() {
   init_platform();
 
@@ -65,24 +86,19 @@ int main() {
   led_set(0x4, true);
 
   //initiate buttons interface
-  io_btn_init(btn_handler);
+  io_btn_init(callback);
 
   //initiate switches interface
-  io_sw_init(sw_handler);
+  io_sw_init(callback);
 
 
   printf("[hello]\n"); /* so we are know its alive */
 
   while (1) {
-  	printf(">");
-  	char c, str[64] = "";
-  	int i = 0;
+	char str[64] = "";
+  	get_input(&str);
 
-  	// get characters one by one into str
-  	while ((c = getchar()) != '\r') {
-  		str[i++] = c;
-  		printf("%c", c);
-  	}
+  	printf("%s", str);
 
  	char *ptr;
 
@@ -125,4 +141,4 @@ int main() {
   cleanup_platform();					/* cleanup the hardware platform */
   return 0;
 }
-
+/***************************************************************************************/
