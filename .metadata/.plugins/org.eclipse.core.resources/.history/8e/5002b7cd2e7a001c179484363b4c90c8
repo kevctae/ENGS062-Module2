@@ -1,0 +1,203 @@
+/*
+ * led.c -- led module
+ *
+ */
+
+
+
+/*includes*/
+/***************************************************************************************/
+#include "led.h"
+/***************************************************************************************/
+
+
+
+/*defines*/
+/***************************************************************************************/
+/* led states */
+#define LED_ON true
+#define LED_OFF false
+
+#define ALL 0xFFFFFFFF		/* A value designating ALL leds */
+
+#define OUTPUT 0x0							/* setting GPIO direction to output */
+#define CHANNEL1 1							/* channel 1 of the GPIO port */
+/***************************************************************************************/
+
+
+
+/*globals*/
+/***************************************************************************************/
+
+static XGpio port;									/* GPIO port connected to the leds */
+static XGpio port1;
+static XGpioPs port3;
+/***************************************************************************************/
+
+
+
+/*functions*/
+/***************************************************************************************/
+/*
+ * Initialize the led module
+ */
+void led_init(void) {
+	XGpio_Initialize(&port, XPAR_AXI_GPIO_0_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
+	XGpio_SetDataDirection(&port, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
+	XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);
+
+	XGpioPs_Config *config = XGpioPs_LookupConfig(XPAR_XGPIOPS_0_DEVICE_ID);
+	XGpioPs_CfgInitialize(&port3, config, config->BaseAddr);
+	XGpioPs_SetDirectionPin(&port3, 7, 1);
+	XGpioPs_SetOutputEnablePin(&port3, 7, 1);
+}
+
+/*
+ * Set <led> to one of {LED_ON,LED_OFF,...}
+ *
+ * <led> is either ALL or a number >= 0
+ * Does nothing if <led> is invalid
+ */
+void led_set(u32 led, bool tostate) {
+	u32 led_state = XGpio_DiscreteRead(&port, CHANNEL1);
+
+	if (led == ALL) {
+		if (tostate) {
+			XGpio_DiscreteWrite(&port, CHANNEL1, 0xF);
+			XGpioPs_WritePin(&port3, 7, 1);
+		} else {
+			XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);
+			XGpioPs_WritePin(&port3, 7, 0);
+		}
+	} else if (led == 0) {
+		if (tostate) {
+			u32 value = 0x1 | led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		} else {
+			u32 value = 0xe & led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		}
+	} else if (led == 1) {
+		if (tostate) {
+			u32 value = 0x2 | led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		} else {
+			u32 value = 0xd & led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		}
+	} else if (led == 2) {
+		if (tostate) {
+			u32 value = 0x4 | led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		} else {
+			u32 value = 0xb & led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		}
+	} else if (led == 3) {
+		if (tostate) {
+			u32 value = 0x8 | led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		} else {
+			u32 value = 0x7 & led_state;
+			XGpio_DiscreteWrite(&port, CHANNEL1, value);
+		}
+	} else if (led == 4){
+		if(tostate){
+			XGpioPs_WritePin(&port3, 7, 1);
+		}else{
+			XGpioPs_WritePin(&port3, 7, 0);
+		}
+	}
+}
+
+/*
+ * Get the status of <led>
+ *
+ * <led> is a number >= 0
+ * returns {LED_ON,LED_OFF,...}; LED_OFF if <led> is invalid
+ */
+bool led_get(u32 led) {
+	u32 led_state = XGpio_DiscreteRead(&port, CHANNEL1);
+
+	if (led == 0) {
+		u32 value = 0x1 & led_state;
+
+		if (value == 0x1) {
+			return LED_ON;
+		} else {
+			return LED_OFF;
+		}
+	} else if (led == 1) {
+		u32 value = 0x2 & led_state;
+
+		if (value == 0x2) {
+			return LED_ON;
+		} else {
+			return LED_OFF;
+		}
+	} else if (led == 2) {
+		u32 value = 0x4 & led_state;
+
+		if (value == 0x4) {
+			return LED_ON;
+		} else {
+			return LED_OFF;
+		}
+	} else if (led == 3) {
+		u32 value = 0x8 & led_state;
+
+		if (value == 0x8) {
+			return LED_ON;
+		} else {
+			return LED_OFF;
+		}
+	} else if (led == 4){
+		u32 value = XGpioPs_ReadPin(&port3, 7);
+		if(value == 0){
+			return LED_OFF;
+		} else{
+			return LED_ON;
+		}
+	}
+	return LED_OFF;
+}
+
+/*
+ * Toggle <led>
+ *
+ * <led> is a value >= 0
+ * Does nothing if <led> is invalid
+ */
+void led_toggle(u32 led) {
+	bool led_state = led_get(led);
+
+	if (led_state == LED_ON) {
+		led_set(led, LED_OFF);
+	} else {
+		led_set(led, LED_ON);
+	}
+}
+
+void led_init_rgb(void) {
+	XGpio_Initialize(&port1, XPAR_AXI_GPIO_1_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
+	XGpio_SetDataDirection(&port1, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
+	XGpio_DiscreteWrite(&port1, CHANNEL1, 0x0);
+}
+
+void led_rgb_set(char color){
+
+	if(color == 'r'){
+		XGpio_DiscreteWrite(&port1, CHANNEL1, 0x4);
+	}else if(color == 'g'){
+		XGpio_DiscreteWrite(&port1, CHANNEL1, 0x2);
+	}else if(color == 'b'){
+		XGpio_DiscreteWrite(&port1, CHANNEL1, 0x1);
+	}else if(color == 'y'){
+		XGpio_DiscreteWrite(&port1, CHANNEL1, 0x6);
+	}
+}
+
+void led_rgb_off(void){
+	XGpio_DiscreteWrite(&port1, CHANNEL1, 0x0);
+}
+
